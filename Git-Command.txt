@@ -1,0 +1,16 @@
+*** Push ***
+- git init
+- git add .
+- git commit -m "Comment....."
+- git remote -v
+- git push origin master
+
+*** Delete ****
+- git rm file.txt
+- git commit -m "remove file.txt"
+- git push origin branch_name
+
+& If you want to remove the file only from the Git repository and not remove if from the file system, use :
+- git rm --cached file.txt
+- git commit -m "remove file.txt"
+- git push origin branch_name
